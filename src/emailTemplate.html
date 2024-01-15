@@ -1,0 +1,53 @@
+<!-- emailTemplate.html -->
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: left;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #e6f7ff;
+        }
+
+        .container img.logo {
+            width: 100%;
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>
+            <img class="logo" src="https://www.baylink.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_blue.91277244.png&w=96&q=75" alt="Baylink Logo">
+        </h2>
+        <p><strong>Verify your Email</strong></p>
+        <p>Please use the 6-digit verification code below on our website:</p>
+        <p><strong>{otp}</strong></p>
+        <p>If you didn't request this, you can ignore this email and let us know.</p>
+        <p>Thanks,<br>Baylink Team</p>
+    </div>
+
+</body>
+</html>
